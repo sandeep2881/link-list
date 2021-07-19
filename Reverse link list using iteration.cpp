@@ -52,6 +52,7 @@ void reverse()			//function to reverse a given list;
 		curr=next;
 	}
 	head=prev;
+	return;
 }
 int main()
 {
@@ -65,4 +66,5 @@ int main()
 	cout<<endl<<endl;
 	cout<<"The reversed list is : ";
 	display();
+	return;
 }
